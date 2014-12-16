@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/service/greeting")
 public class IndexController {
 	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
-	public Greeting getGreeting(@PathVariable String name) {
-		return new Greeting(name);
+	public String getGreeting(@PathVariable String name) {
+		return "hello, " + name;
 	}
 } 
