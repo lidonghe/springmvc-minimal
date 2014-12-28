@@ -4,8 +4,8 @@
   <artifactId>springmvc-minimal</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>jquery-spring-hibernate</name>
-  <description>Code base for integration jquery, spring and hibernate</description>
+  <name>springmvc-minimal</name>
+  <description>building rest service by springmvc with json</description>
   
   <properties>
     <java-version>1.8</java-version>
