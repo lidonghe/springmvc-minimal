@@ -8,6 +8,7 @@ public class Greeting {
 	public Greeting(String pName){
 		
 		name = pName;
+	    
 	}
 	
 	public long getId() {

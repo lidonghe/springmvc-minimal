@@ -11,7 +11,7 @@
     <java-version>1.8</java-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring.version>4.0.2.RELEASE</spring.version>
-	<fasterxml.version>2.3.4</fasterxml.version>
+    <jackson.version>1.9.13</jackson.version>
   </properties>
 
   <dependencies>
@@ -47,11 +47,17 @@
         <version>${spring.version}</version>
     </dependency>
     <!-- JSon -->
-    <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-core</artifactId>
-        <version>${fasterxml.version}</version>
-    </dependency>
+     <dependency>
+		<groupId>org.codehaus.jackson</groupId>
+		<artifactId>jackson-core-asl</artifactId>
+		<version>${jackson.version}</version>
+		</dependency>
+	<dependency>
+		<groupId>org.codehaus.jackson</groupId>
+		<artifactId>jackson-mapper-asl</artifactId>
+		<version>${jackson.version}</version>
+	</dependency>
+    
     
   </dependencies>
   
